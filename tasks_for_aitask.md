@@ -205,19 +205,7 @@ AI支援タスク詳細化システム
 ## 9. 開発計画
 
 ### 9.1 開発タスクリスト（Phase 1）
-開発は以下のプルリクエスト単位で進める。
-
-*   **PR #1: Railsプロジェクトの初期設定とテスト基盤の構築**
-    *   内容: `rails new`, `RSpec`の導入と設定
-    *   ブランチ名: `chore/setup-initial-project`
-
-*   **PR #2: プロジェクト管理API（CRUD）の実装**
-    *   内容: `Project`モデル、`Projects`コントローラー（index, show, create, update, destroy）、RSpecテストコード
-    *   ブランチ名: `feat/implement-project-crud-api`
-
-*   **PR #3: タスク管理API（CRUD）の実装**
-    *   内容: `Task`モデル、`Tasks`コントローラー（index, show, create, update, destroy）、RSpecテストコード
-    *   ブランチ名: `feat/implement-task-crud-api`
+Phase 1の各タスクは、`tasks/`ディレクトリ内の個別ファイルで管理されます。
 
 ### 9.2 開発フェーズ（全体像）
 - **Phase 1**: 基本CRUD機能（本タスクリスト完了後、次のフェーズを具体化）
